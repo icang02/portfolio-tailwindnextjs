@@ -181,65 +181,83 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative group border-red-100">
               <Image
                 src={web1}
                 alt="Image"
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg group-hover:brightness-50 transition ease-in"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
+              <p className="absolute text-lg opacity-0 transition top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-slate-100 font-medium group-hover:opacity-100 md:text-2xl">
+                Project I
+              </p>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative group border-red-100">
               <Image
                 src={web2}
                 alt="Image"
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg group-hover:brightness-50 transition ease-in"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
+              <p className="absolute text-lg opacity-0 transition top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-slate-100 font-medium group-hover:opacity-100 md:text-2xl">
+                Project II
+              </p>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative group border-red-100">
               <Image
                 src={web3}
                 alt="Image"
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg group-hover:brightness-50 transition ease-in"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
+              <p className="absolute text-lg opacity-0 transition top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-slate-100 font-medium group-hover:opacity-100 md:text-2xl">
+                Project III
+              </p>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative group border-red-100">
               <Image
                 src={web4}
                 alt="Image"
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg group-hover:brightness-50 transition ease-in"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
+              <p className="absolute text-lg opacity-0 transition top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-slate-100 font-medium group-hover:opacity-100 md:text-2xl">
+                Project IV
+              </p>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative group border-red-100">
               <Image
                 src={web5}
                 alt="Image"
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg group-hover:brightness-50 transition ease-in"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
+              <p className="absolute text-lg opacity-0 transition top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-slate-100 font-medium group-hover:opacity-100 md:text-2xl">
+                Project V
+              </p>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 relative group border-red-100">
               <Image
                 src={web6}
                 alt="Image"
-                className="rounded-lg object-cover shadow-lg"
+                className="rounded-lg object-cover shadow-lg group-hover:brightness-50 transition ease-in"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
+              <p className="absolute text-lg opacity-0 transition top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 text-slate-100 font-medium group-hover:opacity-100 md:text-2xl">
+                Project VI
+              </p>
             </div>
           </div>
         </section>
